@@ -140,9 +140,13 @@ header {
    --bg: var(gray0)
 }
 
-.dark {}
+.dark {
+   --bg: var(gray0)
+}
 
-.solar {}
+.solar {
+   --bg: var(gray0)
+}
 
 
 /* scrollbar gradient effect without  */
