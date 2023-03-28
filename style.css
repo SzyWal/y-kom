@@ -149,7 +149,7 @@ header {
 body::-webkit-scrollbar {
    width: 1px;
    height: 25px;
-   position: absolute;
+   position: relative;
    left: -1px;
    top: 65%;
    content: '';
