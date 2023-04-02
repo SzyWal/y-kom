@@ -3,4 +3,7 @@ function narcissistic(value) {
     let a = value.split
 }
 
+const a = function = () => {
+    
+}
 //About work next step: Add EventListerners
