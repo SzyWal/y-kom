@@ -3,6 +3,8 @@ function narcissistic(value) {
     let a = value.split
 }
 
+const nav = document.querySelector(.nav-bar)
+
 const a = function = () => {
     
 }
