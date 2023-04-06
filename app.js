@@ -1,11 +1,37 @@
-function narcissistic(value) {
-    // Code me to return true or false
-    let a = value.split
-}
 
-const nav = document.querySelector(.nav-bar)
+const todoList = [];
 
-const a = function = () => {
-    
-}
+renderTodoList();
+
+function renderTodoList () {
+
+    let todoListHTML = '';
+
+    for(let i = 0; i < todoList.length; i++) {
+
+        const todo = todoList[i];
+        const html = `<p>${todo}</p>`
+        todoListHTML += html;
+    }
+    console.log(todoListHTML)
+
+    document.querySelector('.js-todo-list')
+        .innerHTML = todoListHTML;
+    }
+    function addTodoList () {
+        const inputElement = document.querySelector('.search-bar-Todo');
+        const name = inputElement.value;
+        
+        todoList.push(name)
+        console.log(todoList);
+
+        inputElement.value = '';
+
+        renderTodoList();
+    }
+
+// const addTodo = document.querySelector('.AddTodo')
+//     .addEventListener('click', () => {
+ 
+//     })
 //About work next step: Add EventListerners

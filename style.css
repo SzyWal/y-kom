@@ -87,7 +87,7 @@ header {
 }
 
 .dropdown {
-   position: absolute;
+   position: relative;
    width: 500px;
    opacity: 1;
    z-index: 2;
@@ -107,7 +107,7 @@ header {
 }
 
 .has-dropdown:focus-within .dropdown {
-   opacity: 1;
+   opacity: 0.4;
    pointer-events: auto;
 }
 
@@ -179,3 +179,11 @@ body::-webkit-scrollbar:hover:after {
 nav {
    background-color: wheat ;
 }
+
+/*
+,class {
+display: grid;
+grid-template-columns: 200px 150px 100px
+}
+
+*/
