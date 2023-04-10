@@ -29,7 +29,10 @@ function renderTodoList () {
 
         renderTodoList();
     }
-
+    const buttonFeature = () => {
+        document.addEventListener()
+        .innerHTML()
+    }
 // const addTodo = document.querySelector('.AddTodo')
 //     .addEventListener('click', () => {
  

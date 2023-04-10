@@ -149,7 +149,7 @@ header {
 }
 
 
-/* scrollbar gradient effect without  */
+/* scrollbar gradient effect without--- CHECK BUG  */
 body::-webkit-scrollbar {
    width: 1px;
    height: 25px;
