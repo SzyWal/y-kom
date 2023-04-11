@@ -44,7 +44,7 @@ ul {
    margin: 0;
    padding: 0;
 }
-
+               /* Add to nav position stick + grid for firs line of products*/
 .nav-bar {
 
    flex-direction: column;
@@ -177,7 +177,8 @@ body::-webkit-scrollbar:hover:after {
 }
 
 nav {
-   background-color: wheat ;
+   background-color: wheat;
+   color: aqua;
 }
 
 /*

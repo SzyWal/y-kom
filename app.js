@@ -28,10 +28,16 @@ function renderTodoList () {
         inputElement.value = '';
 
         renderTodoList();
-    }
+    };
+
+
     const buttonFeature = () => {
         document.addEventListener()
         .innerHTML()
+    };
+
+    Addbutton () = {
+        
     }
 // const addTodo = document.querySelector('.AddTodo')
 //     .addEventListener('click', () => {
