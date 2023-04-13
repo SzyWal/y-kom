@@ -44,3 +44,5 @@ function renderTodoList () {
  
 //     })
 //About work next step: Add EventListerners
+
+//searchbar, responsive menu, loop for whislist (sth like todolist)
