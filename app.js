@@ -37,6 +37,7 @@ function renderTodoList () {
     };
 
     Addbutton () = {
+        //var from queryselector = var.innerHTML
         
     }
 // const addTodo = document.querySelector('.AddTodo')
