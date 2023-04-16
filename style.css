@@ -199,8 +199,10 @@ grid-template-columns: 200px 150px 100px
    background-size: 4rem 4rem;
 }
 
+/* second part of website must be a grid template */
 .promo {
    grid-row: repeat(4, 1fr);
    grid-column: repeat(5, 1fr);
 
 }
+
