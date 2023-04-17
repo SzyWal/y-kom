@@ -289,6 +289,18 @@ html {
       transition: .3s ease-in-out;
    }
 
+   .buerger.active .line:first-child {
+      transform: translateY(-300px);
+   }
+
+.burger.active .line:nth-child(2) {
+   transform: rotate(-405deg) translateY(8px);
+}
+
+.burger.active .line:nth-child(3) {
+   transform: rotate(-320deg) translate(-10px);
+}
+
    .nav-ul {
       position: absolute;
       right: 0;
