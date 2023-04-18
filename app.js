@@ -51,6 +51,8 @@ function renderTodoList () {
 // make popup callendar(when arrive)
 // sticky popup contact icon (right side)
 
+// Eventlistener in the links
+
 const mobileNav = document.querySelector(".nav-ham")
 const burgerBtn = document.querySelector(".burger")
 

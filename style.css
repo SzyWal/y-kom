@@ -266,6 +266,8 @@ html {
    width: 100%;
 }
 
+   /* burger styling */
+
 .burger {
    background: transparent;
    border: none;
@@ -282,6 +284,8 @@ html {
    border-radius: 20px;
    transition: .3s ease-in-out;
 }
+
+   /* animation burger menu */
 
 @media only screen and (max-width: 1000px) {
    .burger {
